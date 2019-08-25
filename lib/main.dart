@@ -46,7 +46,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-     final size = MediaQuery.of(context).size;
+    //  final size = MediaQuery.of(context).size;
      
 
     return MaterialApp(
@@ -82,8 +82,9 @@ class _MyAppState extends State<MyApp> {
                   Icons.add,
                 ),
                 // onPressed: () =>showModalBottomSheet,
+                onPressed: (){},
                 // onPressed: () => _startAddTransAction(context),
-                onPressed: () => print(size),
+                // onPressed: () => print(size),
               )
             ],
           ),
